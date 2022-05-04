@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.box1 {
+    background-color: #40BBE6;
+    width: 150px;
+    height: 150px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    font-size: medium;
+    text-align: center;
+    line-height: 132px;
+	
+	
+}
+.box2 {
+    background-color: #E3B45F;
+    width: 150px;
+    height: 150px;
+    font-size: medium;
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+    text-align: center;
+    line-height: 136px;
+    margin-top: 20px;
+}
+.box3 {
+    background-color: #81EE8A;
+    width: 150px;
+    height: 150px;
+    font-size: medium;
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 136px;
+    margin-top: 20px;
+}
+.box1:hover {
+    background-color: #E7DF2C;
+    font-size: xx-large;
+    background-position: 140px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+	transform: translate(15px, 10px);
+}
+.box2:hover {
+    background-color: #EFF634;
+    font-size: xx-large;
+	transform: rotate(45deg);
+}
+.box3:hover {
+    background-color: #F4FD9A;
+    font-size: xx-large;
+    width: 400px;
+    height: 400px;
+    display: block;
+	transform:  translateX(-135px);
+}
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 800px;
+}
